@@ -1,3 +1,7 @@
+##Variable exercises
+
+#1 - 4: See name.rb & age.rb 
+
 x = 0 
 
 3.times do 
