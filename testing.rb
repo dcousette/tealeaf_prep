@@ -152,19 +152,3 @@ hash = {
 #   end
 # end
 
-total = 0
-hash.each do |key, value|
-  males = value["gender"] == "male"
-  total += males ? value["age"] : 0
-end
-
-
-
-
-
-
-
-
-
-
-

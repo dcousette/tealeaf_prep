@@ -20,7 +20,5 @@ hash.each do |key, value|
   total += male ? value["age"] : 0
 end
 
-
-
 #2
 
