@@ -1,11 +1,7 @@
-class String
-
-  def pretty_short_version(string, length) 
-    if string.length > length 
-      string[0, length] + "..."
-    end 
+def color_valid( color )
+  if ( color == "blue" || color == "green") ? true : false 
   end
-    
 end
 
-pretty_short_version("This is my new string to test out", 6)
+
+color_valid("red")
